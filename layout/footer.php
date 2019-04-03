@@ -1,0 +1,1 @@
+<?php echo "<div id='footer'>©copyright 2017-2019 Jay Wilson</div>";

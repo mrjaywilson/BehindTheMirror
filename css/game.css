@@ -1,0 +1,102 @@
+#message {
+    color: #80bdff;
+    font-family: "Lucida Console";
+}
+
+#content {
+    height: 250px;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+
+    overflow-y: auto;
+}
+
+input[type="text"] {
+    background-color: #000000;
+    border-color: #000000;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+
+    color: #80bdff;
+    padding-left: 10px;
+
+    width: 100%;
+}
+
+input[type="text"]:focus {
+    border-color: #000000;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+
+    font-family: "Lucida Console";
+}
+
+label {
+    color: #80bdff;
+}
+
+h2 {
+    align-content: center;
+    color: #80bdff;
+}
+
+hr {
+    border-color: #0c5460;
+    background-color: #0c5460;
+    color: #0c5460;
+}
+
+#title {
+    color: #80bdff;
+}
+
+#by-line {
+    font-family: "Lucida Console";
+}
+
+#footer {
+    color: #80bdff;
+    text-align: center;
+}
+
+/* SCROLLBAR TESTING */
+.scrollbar {
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow
+{
+    min-height: 450px;
+}
+
+#content::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+#content::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #000000;
+}
+
+#content::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122,153,217)),
+    color-stop(0.72, rgb(73,125,189)),
+    color-stop(0.86, rgb(28,58,148)));
+}
