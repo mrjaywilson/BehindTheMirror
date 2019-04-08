@@ -1,0 +1,22 @@
+{
+ "LOO1" : {
+   "location_id": "L001",
+   "description": "Test description for L001.",
+   "has_visited": "false",
+   "visited_description": "Test visited.",
+   "north": "L002",
+   "south": "L003",
+   "east": "L004",
+   "west": "L005"
+ },
+  "LOO2" : {
+    "location_id": "L002",
+    "description": "Test description for L002.",
+    "has_visited": "true",
+    "visited_description": "Test visited.",
+    "north": "L002",
+    "south": "L003",
+    "east": "L004",
+    "west": "L005"
+  }
+}

@@ -1,4 +1,4 @@
-<?php include 'game.php' ?>
+<?php include_once 'game.php'; include_once 'service/Database.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -65,6 +65,14 @@
 <hr/>
 
 <?php include 'layout/footer.php'; ?>
+
+<?php
+
+$db = new Database();
+
+$db->GetLocation("L001");
+
+?>
 
 </body>
 </html>

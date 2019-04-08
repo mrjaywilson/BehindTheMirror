@@ -17,6 +17,4 @@
             $this->firstDescription = $firstDescription;
             $this->alternateDescription = $alternateDescription;
         }
-
-        // Commit test
     }
