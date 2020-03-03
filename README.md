@@ -1,2 +1,2 @@
-# BehindTheMirror
-Online Text Adventure Game
+# Behind The Mirror
+An online Text Adventure Game using javascript.
